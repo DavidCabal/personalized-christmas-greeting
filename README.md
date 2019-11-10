@@ -1,5 +1,7 @@
 # Personalized Christmas Greeting
-Send a personalized Christmas greeting to a friend in less than 30 seconds!
+Send a personalized Christmas greeting to a friend in less than 30 seconds.
+
+[Click here to try it out!](https://merry-christmas-dfa9c.web.app/)
 
 ## Getting Started
 
