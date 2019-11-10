@@ -199,6 +199,10 @@ function App() {
     toast.success('Link copied to clipboard!');
   };
 
+  const getHref = () => {
+    return window.location.href.includes('localhost') ? 'http://localhost:3000' : 'https://merry-christmas-dfa9c.web.app/';
+  };
+
   return (
     <Container>
       <Snow></Snow>
@@ -227,7 +231,9 @@ function App() {
             </div>
           </TextContainer>
           <CreateOwnTextContainer>
-            <CreateOwnText href='http://localhost:3000'>Click here to send a greeting to someone else!</CreateOwnText>
+            <CreateOwnText href={getHref()}>
+              Click here to send a greeting to someone else!
+            </CreateOwnText>
           </CreateOwnTextContainer>
         </div>
       }
