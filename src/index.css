@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: 'McLaren', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: red;
+  overflow: hidden;
+}
+
+code {
+  font-family: 'McLaren', cursive;
+}
